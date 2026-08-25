@@ -7,7 +7,10 @@ class ParkingSystem {
         this->small = small;
         
     }
-    
+    public :: class solution {
+
+
+
     public : bool addCar(int carType) {
         if (carType == 1) {
             if (big > 0) {
